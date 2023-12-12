@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.popapOrder {
+  width: 500px;
+  min-height: 400px;
+  padding: 20px 30px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  justify-content: space-around;
+  box-shadow: 0 0 10px #999;
+  left: 50%;
+  top: 100px;
+  margin-left: -250px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.popapOrder select {
+  width: 90%;
+  margin-left: 5%;
+  padding: 10px;
+  font-size: 15px;
+}
+.popapOrder input {
+  width: 90%;
+  margin-left: 5%;
+  padding: 10px;
+  font-size: 15px;
+}
+.popapOrder button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #999;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.wrap {
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap header {
+  width: 95%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2.5%;
+}
+.wrap header .logoContainer {
+  display: flex;
+  align-items: center;
+}
+.wrap header .logoContainer img {
+  width: 30px;
+}
+.wrap header .logoContainer h2 {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.wrap header .waletContainer {
+  display: flex;
+  align-items: center;
+}
+.wrap header .waletContainer .upPrice {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+}
+.wrap header .waletContainer .upPrice h6 {
+  font-size: 27px;
+  padding: 0 5px;
+}
+.wrap header .waletContainer .downPrice {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.wrap header .waletContainer .downPrice h6 {
+  font-size: 27px;
+  padding: 0 5px;
+}
+.wrap header .btnContainer2 button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #999;
+  color: #fff;
+  border-radius: 5px;
+}
+.wrap .productContainer {
+  width: 95%;
+  min-height: 200px;
+  background-color: #e3e2e2;
+  border-radius: 20px;
+  margin-left: 2.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.wrap .productContainer .productName {
+  width: 150px;
+  min-height: 150px;
+  background-color: rgb(131, 225, 131);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+}
+.wrap .productContainer .orderSrc {
+  width: 100px;
+}
+.wrap .hContainer {
+  margin-left: 35%;
+  margin-top: 50px;
+}
+.wrap .hContainer .btnZamovlenia {
+  padding: 15px 40px;
+  background-color: #090909;
+  color: #fff;
+  border: none;
+  margin: 30px;
+}
+.wrap .hContainer .btnProdazhi {
+  padding: 15px 40px;
+  background-color: #fff;
+  border: none;
+  border-bottom: 2px solid #090909;
+  color: #000;
+}
+.wrap .orderContainer {
+  width: 95%;
+  margin-top: 100px;
+  margin-left: 2.5%;
+}
+.wrap .orderContainer .orderItem {
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #777;
+  color: #fff;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */

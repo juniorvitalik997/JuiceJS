@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawsome connect -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css'
+        integrity='sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ=='
+        crossorigin='anonymous' />
+    <!-- jqwery connect -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js'
+        integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=='
+        crossorigin='anonymous'></script>
+    <!-- user style connect -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- popap Order -->
+    <div class="popapOrder">
+        <h4>Нове замовлення</h4>
+        <select name="" id="productName"></select>
+        <input id="productCount" placeholder="Кількість Л" type="text">
+        <input id="productPrice" placeholder="Вартість" type="text">
+        <input id='productDelivery' placeholder='Доставка'type ="text">
+        <div class="btnContainer">
+            <button id="accept">Підтвердити</button>
+            <button id="cancel">Відхилити</button>
+        </div>
+    </div>
+    <!-- popap Order END -->
+    <div class="wrap">
+        <header>
+            <div class="logoContainer">
+                <img src="./img/Bottle.png" alt="image" id="logo">
+                <h2>Juice</h2>
+            </div>
+            <div class="waletContainer">
+                <div class="upPrice">
+                    <i class="fa-solid fa-arrow-up"></i>
+                    0
+                    <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+                <div class="downPrice">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    <div class="text"></div>
+                    <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+            </div>
+            <div class="btnContainer2">
+                <button id="btnOrder">Замовити товар</button>
+                <button id="btnSale">Продати товар</button>
+            </div>
+
+        </header>
+        
+        
+        <div class="productContainer">
+            
+        </div>
+        <div class="hContainer">
+            <button class="btnZamovlenia">Замовлення</button>
+            <button class="btnProdazhi">Продажі</button>
+        </div>
+        <!-- Order Container  -->
+        <div class="orderContainer">
+
+        </div>
+        <!-- order Container END -->
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

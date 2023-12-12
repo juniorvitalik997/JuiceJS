@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.popapOrder {
+    width: 500px;
+    min-height: 400px;
+    padding: 20px 30px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #999;
+    left: 50%;
+    top: 100px;
+    margin-left: -250px;
+    border-radius: 10px;
+    background-color: #fff;
+
+    select {
+        width: 90%;
+        margin-left: 5%;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    input {
+        width: 90%;
+        margin-left: 5%;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #999;
+        color: #fff;
+        border-radius: 5px;
+    }
+}
+
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    
+    header {
+        width: 95%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 2.5%;
+
+        .logoContainer {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 30px;
+            }
+
+            h2 {
+                margin-left: 10px;
+                font-size: 30px;
+            }
+        }
+
+        .waletContainer {
+            display: flex;
+            align-items: center;
+
+            .upPrice {
+                display: flex;
+                font-size: 25px;
+                align-items: center;
+
+                h6 {
+                    font-size: 27px;
+                    padding: 0 5px;
+                }
+            }
+
+            .downPrice {
+                display: flex;
+                align-items: center;
+                font-size: 25px;
+                margin-left: 50px;
+
+                h6 {
+                    font-size: 27px;
+                    padding: 0 5px;
+                }
+            }
+        }
+
+        .btnContainer2 {
+            button {
+                padding: 10px 20px;
+                border: none;
+                background-color: #999;
+                color: #fff;
+                border-radius: 5px;
+            }
+
+        }
+    }
+
+    .productContainer {
+        width: 95%;
+        min-height: 200px;
+        background-color: #e3e2e2;
+        border-radius: 20px;
+        margin-left: 2.5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        .productName {
+            width: 150px;
+            min-height: 150px;
+            background-color: rgb(131, 225, 131);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+            .orderSrc{
+                width: 100px;
+            }
+    }
+    .hContainer{
+        margin-left: 35%;
+        margin-top: 50px;
+
+        .btnZamovlenia{
+            padding: 15px 40px;
+            background-color: #090909;
+            color: #fff;
+            border: none;
+            margin: 30px;
+        }
+
+        .btnProdazhi{
+            padding: 15px 40px;
+            background-color: #fff;
+            border: none;
+            border-bottom: 2px solid #090909;
+            color: #000;
+        }
+    }
+
+    .orderContainer {
+        width: 95%;
+        margin-top: 100px;
+        margin-left: 2.5%;
+
+        .orderItem {
+            margin-top: 20px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #777;
+            color: #fff;
+            font-size: 18px;
+        }
+    }
+}
